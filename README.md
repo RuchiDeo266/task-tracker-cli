@@ -1,6 +1,6 @@
 ## Task Tracker Simple CLI
 
-Helps in tracking the task by updateing the status, completion , editing and deletion of task
+Helps in tracking the task by updateing the status, completion , editing and deletion of task. https://github.com/RuchiDeo266/task-tracker-cli
 
 ### Features
 
