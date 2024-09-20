@@ -1,6 +1,6 @@
 ## Task Tracker Simple CLI
 
-Helps in tracking the task by updateing the status, completion , editing and deletion of task. https://github.com/RuchiDeo266/task-tracker-cli
+Helps in tracking the task by updateing the status, completion , editing and deletion of task.
 
 ### Features
 
@@ -36,3 +36,5 @@ Note: Access the commands using 'tt'
 - Show all Task: `tt list `
 - Show all Task marked in-progress: `tt list in-progress`
 - Show all Task marked done: `tt list done `
+
+** Project ** : https://roadmap.sh/projects/task-tracker
