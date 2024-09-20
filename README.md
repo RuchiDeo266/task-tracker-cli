@@ -37,4 +37,4 @@ Note: Access the commands using 'tt'
 - Show all Task marked in-progress: `tt list in-progress`
 - Show all Task marked done: `tt list done `
 
-** Project ** : https://roadmap.sh/projects/task-tracker
+**Project** : https://roadmap.sh/projects/task-tracker
