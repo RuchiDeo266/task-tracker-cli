@@ -14,7 +14,7 @@ Helps in tracking the task by updateing the status, completion , editing and del
 
 ### Installing
 
-Fork and clone this github. Open the terminal, go to the saved folder(clone of gitreopo)
+Fork and clone this github [TaskTracker](https://github.com/RuchiDeo266/task-tracker-cli.git). Open the terminal, go to the saved folder(clone of gitreopo), then open the terminal type the below command.
 
 Write in the CLI
 
@@ -22,7 +22,7 @@ Write in the CLI
 npm install -g
 ```
 
-This installs the task-tracker package globally
+This installs the task-tracker package globally.
 
 Note: Access the commands using 'tt'
 
