@@ -1,6 +1,6 @@
 ## Task Tracker Simple CLI
 
-Helps in tracking the task by updateing the status, completion , editing and deletion of task
+Helps in tracking the task by updateing the status, completion , editing and deletion of task.
 
 ### Features
 
@@ -14,7 +14,7 @@ Helps in tracking the task by updateing the status, completion , editing and del
 
 ### Installing
 
-Fork and clone this github [TaskTracker](https://github.com/RuchiDeo266/task-tracker-cli.git). Open the terminal, go to the saved folder(clone of gitreopo), then open the terminal type the below command.
+Fork and clone this github [TaskTracker](https://github.com/RuchiDeo266/task-tracker-cli). Open the terminal, go to the saved folder(clone of gitreopo), then open the terminal type the below command.
 
 Write in the CLI
 
@@ -36,3 +36,5 @@ Note: Access the commands using 'tt'
 - Show all Task: `tt list `
 - Show all Task marked in-progress: `tt list in-progress`
 - Show all Task marked done: `tt list done `
+
+**Project** : https://roadmap.sh/projects/task-tracker
