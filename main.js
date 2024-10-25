@@ -38,7 +38,7 @@ if (command === "update") updateTask(id, update_message);
 
 // MARKING STATUS OF TASKS: markInProgress + markDone
 if (command === "mark-done" || command === "mark-in-progress")
-  markingStatus(id);
+  markingStatus(command, id);
 
 // LISTING ALL ITEMS
 if (command === "list") listTask(arg);

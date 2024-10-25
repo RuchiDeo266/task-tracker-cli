@@ -54,7 +54,6 @@ export const removeTask = (id_no) => {
   // console.log(delete_index);
   let filtered_tasks = tasks.filter((tasks) => tasks.id !== delete_index);
   const changed_length = filtered_tasks.length;
-  console.log(filtered_tasks);
   writeFile(file_path, JSON.stringify(filtered_tasks))
     .then(() => {
       // console.log(changed_length === current_length);
@@ -68,7 +67,7 @@ export const removeTask = (id_no) => {
 // Method: update task
 export const updateTask = (id_no, msg) => {
   // search in data
-  let task_data = readFileFunction(task_data);
+  let task_data = readFileFunction(file_path);
   for (let i = 0; i < task_data.length; i++) {
     let task_obj = task_data[i];
     if (task_obj.id === id_no) {
@@ -86,13 +85,11 @@ export const updateTask = (id_no, msg) => {
 // Method: marking the status
 export const markingStatus = (cmd, id) => {
   let status_upt = "";
-  if (cmd !== "mark-in-progress" && cmd !== "mark-done") {
-    throw new Error("marking command not found");
-  } else if (cmd === "mark-done") {
+  if (cmd === "mark-done") {
     status_upt = "done";
   } else if (cmd === "todo") {
     status_upt = "todo";
-  } else {
+  } else if (cmd === "mark-in-progress") {
     status_upt = "in-progress";
   }
 
